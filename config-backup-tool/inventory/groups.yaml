@@ -1,0 +1,4 @@
+cisco_ios:
+  platform: ios
+  data:
+    domain: example.local

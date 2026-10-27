@@ -1,0 +1,31 @@
+R1:
+  hostname: 10.255.0.1
+  groups:
+    - cisco_ios
+  data:
+    site: sydney
+    role: core
+
+R2:
+  hostname: 10.255.0.2
+  groups:
+    - cisco_ios
+  data:
+    site: melbourne
+    role: edge
+
+R3:
+  hostname: 10.255.0.3
+  groups:
+    - cisco_ios
+  data:
+    site: newcastle
+    role: edge
+
+R4:
+  hostname: 10.255.0.4
+  groups:
+    - cisco_ios
+  data:
+    site: canberra
+    role: edge
